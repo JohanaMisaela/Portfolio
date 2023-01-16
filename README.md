@@ -1,4 +1,4 @@
 # Hi!!
 want to see my Portfolio?
-clic on th elink below
+clic on the link below
 https://johanamisaela.github.io/Portfolio/
