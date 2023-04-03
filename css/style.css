@@ -982,7 +982,7 @@ li::before {
     width: 100%;
     margin: 45px 0;
     padding: 90px 0;
-    background: #EF233C;
+    background: #2b6c70;
 }
 
 .banner .container {
@@ -1019,7 +1019,7 @@ li::before {
 
 .banner .banner-text .btn {
     margin-top: 15px;
-    color: #EF233C;
+    color: #2b6c70;
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -1527,8 +1527,7 @@ li::before {
 /*******************************/
 .footer {
     position: relative;
-    margin-top: 45px;
-    background: #060606;
+    background: white;
 }
 
 .footer .container-fluid {
@@ -1562,12 +1561,12 @@ li::before {
 }
 
 .footer .footer-menu p {
-    color: #ffffff;
-    font-size: 22px;
+    color: #2b6c70;
+    font-size: 12px;
     font-weight: 600;
     line-height: 20px;
     padding: 0 15px;
-    border-right: 1px solid #ffffff;
+    border-right: 1px solid #2b6c70;
 }
 
 .footer .footer-menu p:last-child {
@@ -1586,7 +1585,7 @@ li::before {
 .footer .footer-social a i {
     margin-right: 15px;
     font-size: 20px;
-    color: #ffffff;
+    color: #2b6c70;
     transition: .3s;
 }
 
@@ -1618,7 +1617,7 @@ li::before {
 
 .footer .copyright p {
     margin: 0;
-    color: #ffffff;
+    color: #2b6c70;
 }
 
 .footer .copyright .col-md-6:last-child p {
@@ -1647,8 +1646,21 @@ li::before {
     }
 
     .footer .footer-menu p {
-        font-size: 16px;
-        line-height: 16px;
+        font-size: 7px;
+        line-height: 7px;
         padding: 0 5px;
     }
 }
+.cv{
+    position: relative;
+	counter-increment: list;
+	max-width: 45rem;
+    min-height: auto;
+	margin: 2rem auto;
+	padding: 2rem 1rem 1rem;
+	box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.3);
+	border-radius: 0.25rem;
+	overflow: hidden;
+	background-color: white;
+}
+
