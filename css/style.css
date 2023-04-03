@@ -743,7 +743,7 @@ a:focus {
 }
 
 .service .service-item:hover {
-    box-shadow: inset 800px 0 0 0 #EF233C;
+    box-shadow: inset 800px 0 0 0 #2b6c70;;
 }
 
 .service .service-icon {
@@ -753,14 +753,14 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #EF233C;
+    border: 1px solid #2b6c70;
     background: #ffffff;
 }
 
 .service .service-icon i {
     position: relative;
     font-size: 60px;
-    color: #EF233C;
+    color: #2b6c70;
     transition: .3s;
 }
 
@@ -803,6 +803,69 @@ a:focus {
     }
 }
 
+/*******************************/
+/******** formation CSS ********/
+/*******************************/
+p {
+	margin: 0;
+	line-height: 1.6;
+}
+h4{
+    text-align: center;
+
+}
+ol {
+	list-style: none;
+	counter-reset: list;
+	padding: 0 1rem;
+}
+
+li {
+	--stop: calc(100% / var(--length) * var(--i));
+	--l: 62%;
+	--l2: 88%;
+	--h: calc((var(--i) - 1) * (180 / var(--length)));
+	--c1: hsl(var(--h), 71%, var(--l));
+	--c2: hsl(var(--h), 71%, var(--l2));
+	
+	position: relative;
+	counter-increment: list;
+	max-width: 45rem;
+	margin: 2rem auto;
+	padding: 2rem 1rem 1rem;
+	box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.3);
+	border-radius: 0.25rem;
+	overflow: hidden;
+	background-color: white;
+}
+
+li::before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 1rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: linear-gradient(to right, #2b6c70 var(--stop),  #c8e3e5 var(--stop));
+}
+
+
+@media (min-width: 40em) {
+	li {
+		margin: 3rem auto;
+		padding: 3rem 2rem 2rem;
+	}
+	
+	h3 {
+		font-size: 2.25rem;
+		margin: 0 0 2rem;
+	}
+	
+	h3::before {
+		margin-right: 1.5rem;
+	}
+}
 
 /*******************************/
 /******** Portfolio CSS ********/
